@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --md-sys-color-primary: #0B2545;
+    --md-sys-color-on-primary: #FFFFFF;
+    --md-sys-color-primary-container: #D8E2FF;
+    --md-sys-color-on-primary-container: #001A41;
+    --md-sys-color-surface: #F8F9FA;
+    --md-sys-color-surface-container: #EDEEF2;
+    --md-sys-color-surface-container-high: #E7E8EC;
+    --md-sys-color-on-surface: #1A1C1E;
+    --md-sys-color-on-surface-variant: #44474E;
+    --md-sys-color-outline: #74777F;
+    --md-sys-color-outline-variant: #C4C7C5;
+  }
+
+  body {
+    font-family: 'Roboto', 'Plus Jakarta Sans', system-ui, sans-serif;
+    color: #1A1C1E;
+    background-color: #F8F9FA;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+

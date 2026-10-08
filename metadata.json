@@ -1,0 +1,6 @@
+{
+  "name": "MAYA Registration Helper",
+  "description": "Elective course registration readiness helper for University of Malaya students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
